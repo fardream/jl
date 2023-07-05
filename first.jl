@@ -1,3 +1,5 @@
+module First
+
 typemin(Int128)
 
 Σ(x, y) = x + y
@@ -8,6 +10,8 @@ function f!(x, y)
     return x + y
 end
 
-for i ∈ [1,2,3]
+for i ∈ [1, 2, 3]
     println(i)
+end
+
 end
